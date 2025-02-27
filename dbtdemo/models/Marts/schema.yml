@@ -25,6 +25,44 @@ models:
       - name: C_COMMENT
         description: ''
 
+  - name: dim_customer
+    description: ''
+    columns:
+      - name: CustomerKey
+        description: ''
+      - name: CustomerName
+        description: ''
+      - name: Address
+        description: ''
+      - name: NationKey
+        description: ''
+      - name: Phone
+        description: ''
+      - name: AccountBalance
+        description: ''
+      - name: MarketSegment
+        description: ''
+      - name: Comment
+        description: ''
+
+  - name: dim_supplier
+    description: ''
+    columns:
+      - name: SupplierKey
+        description: ''
+      - name: SupplierName
+        description: ''
+      - name: Address
+        description: ''
+      - name: NationKey
+        description: ''
+      - name: Phone
+        description: ''
+      - name: AccountBalance
+        description: ''
+      - name: Comment
+        description: ''
+
   - name: LINEITEM
     description: ''
     columns:
